@@ -16,7 +16,10 @@ async def on_ready():
         
         print("Logged in as")
         print(Dscrd.user.name + " (" + Dscrd.user.id + ")" )
+       
 
+@Dscrd.event
+async def 
 
 Dscrd.run('NDg1ODYwNDM0OTU2NjQ4NDY5.Dm2tqw.3ieF9TdMHY-YBL14qCT0yp8skpQ')
 
