@@ -21,5 +21,5 @@ async def on_ready():
 @Dscrd.event
 async def 
 
-Dscrd.run('NDg1ODYwNDM0OTU2NjQ4NDY5.Dm2tqw.3ieF9TdMHY-YBL14qCT0yp8skpQ')
+Dscrd.run('token')
 
