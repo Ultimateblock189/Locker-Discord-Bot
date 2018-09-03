@@ -3,7 +3,8 @@ import asyncio
 import random
 from discord.ext import commands
 from discord.ext.commands import Bot
-
+#AuthorID  I'll set these both when we have working stuff
+#UserName
 try:
         
         Dscrd = discord.Client()
@@ -19,13 +20,17 @@ try:
                 print("Logged in as")
                 print(Dscrd.user.name + " (" + Dscrd.user.id + ")" )
              
-        @Dscrd.event
-        async def on_message(message):
-            print(message.author.id)     
-
         @Dscrd.command(pass_context = True)
-        async def setup(ctx):
-            await Dscrd.say("Setting up account. Please wait.")
+        async def setup(ctx)
+        async def on_message(message):
+                AuthorID = 
+        
+                 
+
+        #@Dscrd.command(pass_context = True)
+       #async def setup(ctx):
+           # await Dscrd.say("Setting up account. Please wait.")
+        
             
 
         Dscrd.run('Token')
