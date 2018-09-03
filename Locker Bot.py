@@ -23,7 +23,8 @@ try:
         @Dscrd.command(pass_context = True)
         async def setup(ctx)
         async def on_message(message):
-                AuthorID = 
+                AuthorID = Dscrd.user.id
+                UserName = Dscrd.user.name
         
                  
 
